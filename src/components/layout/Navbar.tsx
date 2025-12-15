@@ -18,7 +18,7 @@ export function Navbar() {
                         <img src="/favicon.ico" alt="" />
                     </div>
                     <div className="flex flex-col">
-                        <span className="text-xl font-bold text-orange-700 leading-none">SaathiConnect</span>
+                        <span className="text-xl font-bold text-orange-700 leading-none">SaathiHire</span>
                         <span className="text-[10px] font-medium text-green-700 tracking-wider">CONNECTING SKILLS. SOLVING NEEDS.</span>
                     </div>
                 </Link>
