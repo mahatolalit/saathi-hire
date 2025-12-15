@@ -3,7 +3,6 @@ import { Modal } from "./Modal"
 import { Button } from "./Button"
 import { databases, APPWRITE_CONFIG } from "../../lib/appwrite"
 import { useAuth } from "../../context/AuthContext"
-import { Permission, Role } from "appwrite"
 import { WORKER_CATEGORIES } from "../../types"
 import { StatusModal } from "./StatusModal"
 

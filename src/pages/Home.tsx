@@ -6,7 +6,6 @@ import { WORKER_CATEGORIES } from "../types"
 import { AddressSearch } from "../components/ui/AddressSearch"
 import { useAuth } from "../context/AuthContext"
 import FindJobs from "./FindJobs"
-import Search from "./Search"
 
 export default function Home() {
     const { user, userProfile } = useAuth()
