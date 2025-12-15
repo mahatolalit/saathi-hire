@@ -7,6 +7,11 @@ import { AddressSearch } from "../components/ui/AddressSearch"
 import { useAuth } from "../context/AuthContext"
 import FindJobs from "./FindJobs"
 
+import heroImg from "../assets/heroimg.jpg"
+import hyperlocalImg from "../assets/hyperlocal.png"
+import directConnectImg from "../assets/directconnect.png"
+import communityVerifiedImg from "../assets/communityverified.png"
+
 export default function Home() {
     const { user, userProfile } = useAuth()
     const navigate = useNavigate()
@@ -37,7 +42,7 @@ export default function Home() {
                 <div
                     className="absolute inset-0 z-0"
                     style={{
-                        backgroundImage: `url('/src/assets/heroimg.jpg')`,
+                        backgroundImage: `url(${heroImg})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -103,7 +108,7 @@ export default function Home() {
                             <div
                                 className="absolute inset-0 z-0 opacity-[0.32] transition-opacity group-hover:opacity-[0.42]"
                                 style={{
-                                    backgroundImage: `url('/src/assets/hyperlocal.png')`,
+                                    backgroundImage: `url(${hyperlocalImg})`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
                                 }}
@@ -122,7 +127,7 @@ export default function Home() {
                             <div
                                 className="absolute inset-0 z-0 opacity-[0.32] transition-opacity group-hover:opacity-[0.42]"
                                 style={{
-                                    backgroundImage: `url('/src/assets/directconnect.png')`,
+                                    backgroundImage: `url(${directConnectImg})`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
                                 }}
@@ -141,7 +146,7 @@ export default function Home() {
                             <div
                                 className="absolute inset-0 z-0 opacity-[0.32] transition-opacity group-hover:opacity-[0.42]"
                                 style={{
-                                    backgroundImage: `url('/src/assets/communityverified.png')`,
+                                    backgroundImage: `url(${communityVerifiedImg})`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
                                 }}
