@@ -99,7 +99,7 @@ export function Navbar() {
                         {!user && (
                             <>
                                 <Link to="/jobs" className="text-sm font-medium text-gray-700 hover:text-orange-600" onClick={toggleMenu}>Find Jobs</Link>
-                                <Link to="/login" className="text-sm font-medium text-orange-600 font-semibold" onClick={toggleMenu}>Sign In</Link>
+                                <Link to="/login" className="text-sm font-medium text-orange-600" onClick={toggleMenu}>Sign In</Link>
                             </>
                         )}
 
